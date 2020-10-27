@@ -47,20 +47,24 @@ const estiloInicial = StyleSheet.create({
    },
    botaoTexto: {
       fontSize: 18,
-      color: '#FFFFFF',
+      color: '#FFF',
       fontWeight: 'bold'
    },
    botaoBG:{
-       width: 140,
-       height: 100,
+       width: 300,
+       height: 135,
        borderRadius: 10,
        overflow: 'hidden',
        justifyContent: 'flex-end',
        alignItems: 'center',
        padding: 10,
-       borderWidth: 1,
-       borderColor: '#e8f2e9'
-   }
+      
+   },
+
+   botaoLogo:{
+       width: 100,
+       height: 100,
+    }
 });
 
   export default estiloInicial;

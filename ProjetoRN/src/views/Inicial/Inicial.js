@@ -19,11 +19,11 @@ function Inicial({ navigation }) {
         <View style={estiloInicial.container}>
 
             <ImageBackground source={require('../../../assets/Imagens/Cafeteria.jpg')} style={estiloInicial.fundo}>
-                <View style={estiloInicial.logoContainer}>
-                    <LinearGradient colors={['#804000', '#ff9933', '#804000']} style={estiloInicial.logo}>
-                        <Fontisto name="coffeescript" size={50} color="white" />
-                    </LinearGradient>
-                </View>
+            
+                <TouchableOpacity onPress={abrirPerfil}>
+                    <ImageBackground source={require('../../../assets/Imagens/Logo.png')} style={estiloInicial.botaoLogo}>
+                    </ImageBackground>
+                </TouchableOpacity>
 
                 <TouchableOpacity onPress={abrirPerfil}>
                     <ImageBackground source={require('../../../assets/Imagens/Perfil.jpg')} style={estiloInicial.botaoBG}>
@@ -33,7 +33,7 @@ function Inicial({ navigation }) {
 
                 <TouchableOpacity onPress={abrirItem}>
                     <ImageBackground source={require('../../../assets/Imagens/Item.jpg')} style={estiloInicial.botaoBG}>
-                        <Text style={estiloInicial.botaoTexto}>Item</Text>
+                        <Text style={estiloInicial.botaoTexto}>Pães</Text>
                     </ImageBackground>
                 </TouchableOpacity>
             </ImageBackground>
