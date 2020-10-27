@@ -29,15 +29,13 @@ const estiloPerfil = StyleSheet.create({
       padding: 10
    },
    botaoContainer: {
-      marginTop: 20,
+      marginTop: 5,
       marginBottom: 20,
       marginLeft: 40,
       marginRight: 40,
-      borderRadius: 5,
-      height: 40,
-      borderWidth: 2,
-      borderColor: '#e8f2e9',
-      backgroundColor: '#ffd45e',
+      borderRadius: 20,
+      height: 50,
+      backgroundColor: '#61000D',
       justifyContent: 'center',
       alignItems: 'center',
    },
@@ -46,11 +44,9 @@ const estiloPerfil = StyleSheet.create({
       marginBottom: 20,
       marginLeft: 40,
       marginRight: 40,
-      borderRadius: 5,
+      borderRadius: 20,
       height: 250,
-      borderWidth: 2,
-      borderColor: '#e8f2e9',
-      backgroundColor: '#ffd45e',
+      backgroundColor: '#E63950',
       justifyContent: 'left',
       alignItems: 'center',
    },
@@ -81,7 +77,18 @@ const estiloPerfil = StyleSheet.create({
        width: 300,
       alignItems: 'center',
       marginTop: 15,
-    }
+    },
+      botaoLogo:{
+       width: 150,
+       height: 120,
+
+    },
+
+      centro: { 
+      justifyContent: 'center',  
+      alignItems: 'center',
+      marginTop: 10,
+      }
 });
 
   export default estiloPerfil;

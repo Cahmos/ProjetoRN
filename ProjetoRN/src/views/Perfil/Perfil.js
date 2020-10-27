@@ -16,20 +16,20 @@ function Perfil({ navigation }) {
 
                 
                 <ImageBackground source={require('../../../assets/Imagens/Cafeteria.jpg')} style={estiloPerfil.fundo}>
-                <View style={estiloPerfil.logoContainer}>
-                    <LinearGradient colors={['#804000', '#ff9933', '#804000']} style={estiloPerfil.logo}>
-                        <Fontisto name="coffeescript" size={50} color="white" />
-                    </LinearGradient>
+                
+                <View style={estiloPerfil.centro}>
+                    <ImageBackground source={require('../../../assets/Imagens/Logo.png')} style={estiloPerfil.botaoLogo}>
+                    </ImageBackground>
                 </View>
 
                 <View style={estiloPerfil.textoContainer}>
                     <Text style={estiloPerfil.textoTexto}>
-                    Nome: Kayan Hissau Oti
+                    Nome: Cauã A. Morales da Silva
                     <br/>
                     Sala: 3MIA
                     </Text>
                     <View style={estiloPerfil.imagePerfil}>
-                        <ImageBackground source={require('../../../assets/Imagens/fotoPerfil.jpg')} style={estiloPerfil.botaoBG}>
+                        <ImageBackground source={require('../../../assets/Imagens/Law.jpg')} style={estiloPerfil.botaoBG}>
                         </ImageBackground>
                     </View>
                 </View>

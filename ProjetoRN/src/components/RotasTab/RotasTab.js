@@ -16,7 +16,7 @@ const RotasTab = () => {
     <Tab.Navigator 
       tabBarOptions={
       {
-        style: {backgroundColor: '#ffd45e'},
+        style: {backgroundColor: '#61000D'},
         activeTintColor: '#FFFFFF' ,
         showLabel: false,
       }

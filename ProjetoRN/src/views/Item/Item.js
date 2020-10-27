@@ -11,23 +11,23 @@ function Item({ navigation }) {
     const [colecao, setColecao] = useState( [
         {
             id: '1',
-            nome: 'Café expresso',
-            foto: require('../../../assets/Itens/Cafe_Expresso.jpg'),
+            nome: 'Pão Frances',
+            foto: require('../../../assets/Itens/frances.jpg'),
         },
         {
             id: '2',
-            nome: 'Café com leite',
-            foto: require('../../../assets/Itens/Cafe_Leite.jpg'),
+            nome: 'Pão de Queijo',
+            foto: require('../../../assets/Itens/Queijo.jpg'),
         },
         {
             id: '3',
-            nome: 'Cappuccino',
-            foto: require('../../../assets/Itens/Cappuccino.jpg'),
+            nome: 'Pão de Leite',
+            foto: require('../../../assets/Itens/leite.jpg'),
         },
         {
             id: '4',
-            nome: 'Affogato',
-            foto: require('../../../assets/Itens/Affogato.jpg'),
+            nome: 'Pão de Alho',
+            foto: require('../../../assets/Itens/alho.jpg'),
         },
     ]    )
 
@@ -39,11 +39,12 @@ function Item({ navigation }) {
         <View style={estiloItem.container}>
 
                 <ImageBackground source={require('../../../assets/Imagens/Cafeteria.jpg')} style={estiloItem.fundo}>
-                <View style={estiloItem.logoContainer}>
-                    <LinearGradient colors={['#804000', '#ff9933', '#804000']} style={estiloItem.logo}>
-                        <Fontisto name="coffeescript" size={50} color="white" />
-                    </LinearGradient>
+                
+                <View style={estiloItem.centro}>
+                    <ImageBackground source={require('../../../assets/Imagens/Logo.png')} style={estiloItem.botaoLogo}>
+                    </ImageBackground>
                 </View>
+
                 <FlatList
                     showsHorizontalScrollIndicator = {false}
                     data={colecao}

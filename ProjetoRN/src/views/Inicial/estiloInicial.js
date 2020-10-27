@@ -39,7 +39,6 @@ const estiloInicial = StyleSheet.create({
       marginRight: 40,
       borderRadius: 5,
       height: 40,
-      borderWidth: 2,
       borderColor: '#e8f2e9',
       backgroundColor: '#ffd45e',
       justifyContent: 'center',
@@ -62,8 +61,8 @@ const estiloInicial = StyleSheet.create({
    },
 
    botaoLogo:{
-       width: 100,
-       height: 100,
+       width: 150,
+       height: 120,
     }
 });
 

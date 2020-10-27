@@ -29,13 +29,13 @@ const estiloLogin = StyleSheet.create({
       padding: 10
    },
    campo: {
-      backgroundColor: '#ffd45e',
+      backgroundColor: '#E63950',
       fontSize: 18,
       marginLeft: 40,
       marginRight: 40,    
       marginTop: 5,
-      borderRadius: 5,
-      height: 40,
+      borderRadius: 20,
+      height: 50,
       paddingLeft: 10
     },
    botaoContainer: {
@@ -43,11 +43,9 @@ const estiloLogin = StyleSheet.create({
       marginBottom: 20,
       marginLeft: 40,
       marginRight: 40,
-      borderRadius: 5,
-      height: 40,
-      borderWidth: 2,
-      borderColor: '#000',
-      backgroundColor: '#ffd45e',
+      borderRadius: 20,
+      height: 50,
+      backgroundColor: '#61000D',
       justifyContent: 'center',
       alignItems: 'center',
    },
@@ -68,6 +66,18 @@ const estiloLogin = StyleSheet.create({
           paddingRight: 15,
           borderRadius: 8,
       },
+     
+      botaoLogo:{
+       width: 150,
+       height: 120,
+
+    },
+
+      centro: { 
+      justifyContent: 'center',  
+      alignItems: 'center',
+      marginBottom: 40,
+      }
 });
 
   export default estiloLogin;

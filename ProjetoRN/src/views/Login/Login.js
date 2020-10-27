@@ -21,21 +21,22 @@ function Login({ navigation }) {
 
                 <ImageBackground source={require('../../../assets/Imagens/Cafeteria.jpg')} style={estiloLogin.fundo}>
 
-                <View style={estiloLogin.logoContainer}>
-                    <LinearGradient colors={['#804000', '#ff9933', '#804000']} style={estiloLogin.logo}>
-                        <Fontisto name="coffeescript" size={50} color="white" />
-                    </LinearGradient>
+                <View style={estiloLogin.centro}>
+                    <ImageBackground source={require('../../../assets/Imagens/Logo.png')} style={estiloLogin.botaoLogo}>
+                    </ImageBackground>
                 </View>
 
                 <TextInput
                     style={estiloLogin.campo}
                     placeholder="Usuário"
+                    placeholderTextColor="#fff"
                     onChangeText={login => setLogin(login)}
                     value={login}
                 />
 
                 <TextInput
                     style={estiloLogin.campo}
+                    placeholderTextColor="#fff"
                     placeholder="Senha"
                     onChangeText={senha => setSenha(senha)}
                     value={senha}
